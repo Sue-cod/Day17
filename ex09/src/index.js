@@ -41,6 +41,7 @@ function getUsers() {
         console.log(users);
         return output;
 }
+}
 // getUser function - list of users ends here
 
 // findUser(id) function starts here
@@ -57,7 +58,7 @@ function findUserById(id) {
 // findUserById(id) function ends here
 
 // Only change code above this line
-getUsers();
+getUsers(users);
 console.log(findUserById(users)); // Change this line
 
 module.exports = findUserById;
