@@ -36,7 +36,7 @@ const users = [
 function getUsers() {
     var output = " ";
 for ( var i = 0; i < users.length; i++) {
-    console.log(users);
+    console.log(users[i]);
     return output;
 }
 /* console.log(getUsers("John Doe is 24, male"));
@@ -51,7 +51,7 @@ function findUser(lastName, gender) {
     try {
         var user = _.find(users, ['lastName', 'gender']); // add appropriate code here
         console.log(user);
-        var iFindUser = ('{firstName} + {lastName} + "is" + {age} + "," + {gender}');
+        var iFindUser = (`${firstName} ${lastName}  "is"  ${age}  ","  ${gender}`);
         return iFindUser;    
     
     } catch (error) {
