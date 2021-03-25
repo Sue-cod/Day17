@@ -3,7 +3,7 @@
 
 // only change code below this line
 // users nested array with four objects starts here
-var users = [
+const users = [
     {
     "firstName": "John",
     "lastName": "Doe",
@@ -34,7 +34,7 @@ var users = [
 
 // getUsers function - list of users starts here
 function getUsers() {
-    var output = "";
+    var output = " ";
 for ( var i = 0; i < users.length; i++) {
     console.log(users);
     return output;
@@ -49,7 +49,7 @@ console.log(getUsers("Kate Winslet is 40, female")); */
 // findUser(lastName, gender) function starts here
 function findUser(lastName, gender) {
     try {
-        var user = _.find(users, {lastName, gender}); // add appropriate code here
+        var user = _.find(users, ['lastName', 'gender']); // add appropriate code here
         console.log(user);
         var iFindUser = ('{firstName} + {lastName} + "is" + {age} + "," + {gender}');
         return iFindUser;    
@@ -63,6 +63,9 @@ function findUser(lastName, gender) {
 // findUser(lastName, gender) function ends here
 // only change code above this line
 getUsers();
-findUser(lastName, gender); // change this line
+findUser(Doe, male); // change this line
+findUser(Doe, female);
+findUser(Carrey, male);
+findUser(Winslet, male);
 
 module.exports = findUser;
