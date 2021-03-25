@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    line-height: 150px;
+    padding-top: 40px;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline label {
+    margin-right: 40px;
+    margin-left: 35px;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.form-inline input {
+    background-color: black;
+    border: 1px solid white;
+    padding-left: 180px;
+    width: 40%;
+    margin-left: 35px;
+    line-height: 25px;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    padding-left: 50px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    width: 62%;
+    margin-left: 36px;
+    margin-top: 20px;
+}
+
+.form-inline button:hover {
+    background-color: royalblue;
+}
+
+.form-inline {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.main {
+    padding: 16px 32px 32px 32px;
+    margin-left: 600px;
+    height: 100%;
+    text-align: start;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 285px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.main button {
+    padding: 10px 20px;
+    padding-left: 50px;
+    background-color: #560bad;
+    border: 1px solid #560bad;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 150px;
+    line-height: 15px;
+}
+
+.secondary-btn button {
+    padding: 10px 20px;
+    padding-left: 50px;
+    background-color: #560bad;
+    border: 1px solid #560bad;
+    color: white;
+    cursor: pointer;
+    width: 62%;
+    margin-left: 35px;
+    line-height: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #560bad;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #560bad;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 70px;
+    padding-right: 0;
+}
+
+.hr-bar {
+    margin-top: 20px;
+}
+
+#links {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100%;
+}
+
+.text_2 {
+    padding-right: 100px;
+}
+
+.terms {
+    padding-left: 50px;
+}
+
+.terms_2 {
+    padding-right: 50px;
+}
+
+.links {
+    color: royalblue;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* .start {
+    margin-left: 30px;
+    padding-left: 30px;
+  
+} */
